@@ -7,7 +7,7 @@ The purpose of this project is adapting previously developed chat example to com
 ## Design
 ### Functional Description
 The features of the chat are:
-* Messages will have a maximum length (buffer size: 2014kB).
+* Messages will have a maximum length (buffer size: 2048kB).
 * Nicknames can't content some characters, such as "/", in order to prevent errors.
 * Messages will be received dynamically (there is a thread listening permanently without blocking the interface).
 * Nicknames can't be repeated.
